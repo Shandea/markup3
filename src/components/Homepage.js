@@ -7,21 +7,21 @@ import { Link } from "react-router-dom";
 const Homepage = () => {
   return (
     <div className="container">
-      <Link to="/markup3/service">
+      <Link to="/markup3/techsupport">
         <div className="item">
           {" "}
           <img src={image1} alt="picture1" />
           Tech Support
         </div>
       </Link>
-      <Link to="/markup3/service">
+      <Link to="/markup3/careerpaths">
         <div className="item">
           {" "}
           <img src={image2} alt="picture2" />
           Career Paths
         </div>
       </Link>
-      <Link to="/markup3/service">
+      <Link to="/markup3/webdevelopement">
         <div className="item">
           {" "}
           <img src={image3} alt="picture3" />

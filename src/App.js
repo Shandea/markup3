@@ -2,6 +2,9 @@ import "./App.css";
 import Homepage from "./components/Homepage";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Service from "./components/Service";
+import Careerpaths from "./components/Careerpaths";
+import Techsupport from "./components/Techsupport";
+import Webdevelopement from "./components/Webdevelopement";
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
         </div>
         <Route exact path="/markup3/" component={Homepage} />
         <Route exact path="/markup3/service" component={Service} />
+        <Route exact path="/markup3/careerpaths" component={Careerpaths} />
+        <Route exact path="/markup3/webdevelopement" component={Webdevelopement} />
+        <Route exact path="/markup3/techsupport" component={Techsupport} />
+        
       </div>
     </BrowserRouter>
   );
