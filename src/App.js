@@ -14,9 +14,9 @@ function App() {
           <div className="col s12">
             <nav id="navBar">
               <div className="nav-wrapper">
-                <h1 className="title">&#9875;Markup Page&#9875;</h1>
+                <h1 className="title textStyling">&#9875;Markup Website&#9875;</h1>
                 <Link to="/markup3/service" className="brand-logo">
-                  Services
+                 <h1 className="textStyling">Services</h1> 
                 </Link>
               </div>
             </nav>
